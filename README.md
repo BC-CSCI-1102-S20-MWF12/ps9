@@ -74,4 +74,3 @@ In the main method, I've provided some calls to the existing methods and some co
 3. Comment your code and indent propertly. Style will be worth 1 point.
 
 4. Don't forget to comment out anything in the `main()` method that you wrote and uncomment what I have provided.
-
