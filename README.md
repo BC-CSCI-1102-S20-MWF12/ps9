@@ -41,7 +41,7 @@ public void minDegree()
 This is very easy to calculate: just go through each key in the `people` instance variable and get the length of the associated `ArrayList` value that stores the adjacency list. Keep track of the actor (or actors) with the longest (max) or shortest (min) adjacency list.
 
 ### Task 2: Find the most "popular" actors with random walks
-In class we learned that taking a "random walk" on a graph can tell us about the relative popularity of a particular vertex. If you randomly follow edges in the graph of actors , you'll notice that you will visit some actors more often than others, no matter where you start off in the graph. We can say that those actors are more popular -- they are the Kevin Bacons of our graph. 
+In class we learned that taking a random walk on a graph can tell us about the relative "popularity" of a particular vertex. If you randomly follow edges in the graph of actors , you'll notice that you will visit some actors more often than others, no matter where you start off in the graph. We can say that those actors are more popular -- they are the Kevin Bacons of our graph. 
 
 I have written code that takes a random walk starting at a given vertex (actor) and ending after a certain number of steps. The method returns an `ArrayList` of all of the actors visited on that random walk. 
 
@@ -58,8 +58,7 @@ In the method, create a `HashMap` variable that will map from actors (a `String`
 You write code for breadth-first search to try to connect any two actors in the graph on a shortest path. I have provided skeleton code and very detailed comments in the `SixDegrees.java` file. I've also demonstrated how to do breadth-first search in class and in example code. Have fun!
 
 ### Task 4: `isGraphConnected()` with depth-first search
-You will write a depth-first search to determine whether the graph is connected. Starting from one actor, you will visit every actor connected to that actor. If any actor in the full list of people is not found, you know that the graph is not connected.
-
+You will write a depth-first search to determine whether the graph is connected. Starting from one actor, you will visit every actor connected to that actor. If any actor in the full list of people is not found, you know that the graph is not connected. I suggest starting from an actor with a low degree.
 
 ### Task 5: `main()` method
 In the main method, I've provided some calls to the existing methods and some commented-out calls to the methods you'll be writing in tasks 1, 2, 3, and 4. Uncomment these commented-out calls to verify that your code works. 
