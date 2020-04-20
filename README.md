@@ -6,7 +6,9 @@
 
 ## Overview
 
-It has been a long and very weird road, but you have arrived at the final problem set for CS2! In this problem set, you will be exploring a undirected graph built using a subset of the available data from IMDB, the Internet Movie Database. The data is stored in a text file I have provided called `imdb.txt`. It was downloaded from here: https://www.kaggle.com/PromptCloudHQ/imdb-data and modified to contain only the relevant information for this problem set.
+It has been a long and very weird road, but you have arrived at the final problem set for CS2! You should be very proud of all that you have accomplished this semester under these challenging circumstances. Thank you for always being flexible and understanding.
+
+In this problem set, you will be exploring a undirected graph built using a subset of the available data from IMDB, the Internet Movie Database. The data is stored in a text file I have provided called `imdb.txt`. It was downloaded from here: https://www.kaggle.com/PromptCloudHQ/imdb-data and modified to contain only the relevant information for this problem set.
 
 In this graph of actors from the 999 most popular movies from 2006 to 2016, each vertex is an actor, and each edge is movie that unites that actor with another actor. Below is a visualization of a subgraph of this graph:
 
@@ -65,12 +67,14 @@ In the main method, I've provided some calls to the existing methods and some co
 
 --- 
 
-## Important notes on grading
+## Important notes
 
-1. You should submit only the files that are already in the repo. Do not move files out of their current directories. I will take off a point for every file that gets moved to a different directory.
+1. You should submit only the files that are already in the repo. Do not move files out of their current directories. 
 
 2. Your code must compile. If you can't get something to compile, comment it out and explain what you were doing so we can try to give you partial credit. 
 
-3. Comment your code and indent propertly. Style will be worth 1 point! Indentation is important for making code easy to read. To help fix your indentation, select your code, go to Edit->Lines->Auto Indent. Place your comments on their own lines and not at the ends of lines of code that will be execute.
+3. Comment your code and indent propertly. Indentation is important for making code easy to read. To help fix your indentation, select your code, go to Edit->Lines->Auto Indent. Place your comments on their own lines and not at the ends of lines of code that will be execute.
 
 4. Don't forget to comment out anything in the `main()` method that you wrote and uncomment what I have provided.
+
+5. Give yourself a pat on the back for a job well done.
