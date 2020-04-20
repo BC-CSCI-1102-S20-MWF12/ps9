@@ -174,6 +174,7 @@ public class SixDegrees {
   // ------------------------------------
   // Determine whether the graph is connected by doing a DFS from some actor.
   // The algorithm is set out for you below.
+  // 15-25 lines of code, bot including comments.
   public boolean isGraphConnectedDFS(String a) {
 
 
@@ -194,8 +195,9 @@ public class SixDegrees {
 
       // For each PersonMovie in the adjacency list...
 
-          // Check to see if that actor has already been visited.
-          // If not, add that actor to the stack.
+          // If that actor has not yet been visited.
+            // Add that actor to the stack.
+            // Add that actor to the visited list.
 
     // When the stack is finally empty, you've visited every actor
     // that is connected to the input actor, a.
@@ -219,6 +221,7 @@ public class SixDegrees {
   // You need to print out the full path from actor a to actor b.
   // You also need to keep track of the length of the path.
   // The algorithm is set out for you below.
+  // 15-30 lines of code, not including comments
   public void findShortestPath(String a, String b) {
 
     // For each actor you encounter, keep track of how you got there
