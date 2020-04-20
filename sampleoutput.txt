@@ -1,0 +1,25 @@
+Here are some people who are connected to Kevin Bacon: [
+Ellen Page, Jason Bateman, Steve Wiebe, Jason Sudeikis, Charlie Day, Jason Sudeikis, Margarita Levieva, Alison Brie, Jason Sudeikis, Jennifer Aniston, Jason Bateman, Steve Wiebe, Jason Bateman, Jennifer Garner, Jason Bateman, Allison Tolman, Rebecca Hall, Ciaran Hinds, Jim Broadbent, Domhnall Gleeson, Daisy Ridley, Oscar Isaac, Sonoya Mizuno, Oscar Isaac, Charlotte Le Bon]
+
+Max Degree
+[Mark Wahlberg]
+
+Min Degree
+[Storm Acheche Sahlstrom]
+
+Most Popular:  // note: your answers will vary!
+Mark Wahlberg
+Brad Pitt
+Anne Hathaway
+Sharlto Copley
+Jennifer Aniston
+
+// again here, your answers will vary!
+Lewis MacDougall was in A Monster Calls with Felicity Jones
+Felicity Jones was in Inferno with Ben Foster
+Ben Foster was in Lone Survivor with Mark Wahlberg
+
+No path found between Storm Acheche Sahlstrom and Alon Aboutboul.
+
+I could not reach Matt Damon from Michael Dorman
+Graph is not connected!
