@@ -174,8 +174,8 @@ public class SixDegrees {
   // ------------------------------------
   // Determine whether the graph is connected by doing a DFS from some actor.
   // The algorithm is set out for you below.
-  // 15-25 lines of code, bot including comments.
-  public boolean isGraphConnectedDFS(String a) {
+  // 15-25 lines of code, not including comments.
+  public boolean isGraphConnected(String a) {
 
 
     // In DFS, you use a stack. Conveniently, in Java, there is a Stack
